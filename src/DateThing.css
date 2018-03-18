@@ -1,0 +1,154 @@
+.rdr-DateRange {
+  background: rgb(255, 255, 255);
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.rdr-Calendar {
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  border-radius: 2px;
+  display: inline-block;
+  letter-spacing: 0px;
+  padding: 10px;
+  width: 280px;
+}
+
+.rdr-MonthAndYear-innerWrapper {
+  font-size: 12px;
+  height: 38px;
+  line-height: 18px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.rdr-WeekDay {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  height: 18.5714px;
+  letter-spacing: initial;
+  line-height: 18.5714px;
+  margin-bottom: 1px;
+  text-align: center;
+  width: 37.1429px;
+}
+
+.rdr-Days span {
+  display: inline-block;
+  height: 37.1429px;
+  width: 37.1429px;
+}
+
+.rdr-MonthAndYear-button {
+  background: rgb(189, 195, 199);
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+  display: block;
+  height: 18px;
+  margin: 0px 10px;
+  outline: none;
+  padding: 0px;
+  width: 18px;
+}
+
+.rdr-MonthAndYear-button.prev {
+  float: left;
+}
+
+.rdr-MonthAndYear-button.prev i {
+  border-color: transparent rgb(52, 73, 94) transparent transparent;
+  border-image: initial;
+  border-style: solid;
+  border-width: 4px 6px 4px 4px;
+  display: block;
+  height: 0px;
+  margin: 0px 0px 0px 1px;
+  padding: 0px;
+  text-align: center;
+  width: 0px;
+}
+
+.rdr-MonthAndYear-button.next {
+  float: right;
+}
+
+.rdr-MonthAndYear-button.next i {
+  border-color: transparent transparent transparent rgb(52, 73, 94);
+  border-image: initial;
+  border-style: solid;
+  border-width: 4px 4px 4px 6px;
+  display: block;
+  height: 0px;
+  margin: 0px 0px 0px 7px;
+  padding: 0px;
+  text-align: center;
+  width: 0px;
+}
+
+.rdr-WeekDay {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  height: 18.5714px;
+  letter-spacing: initial;
+  line-height: 18.5714px;
+  margin-bottom: 1px;
+  text-align: center;
+  width: 37.1429px;
+}
+
+.rdr-Days span {
+  display: inline-block;
+  height: 37.1429px;
+  width: 37.1429px;
+}
+
+.rdr-Day {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  height: 37.1429px;
+  letter-spacing: initial;
+  line-height: 37.1429px;
+  text-align: center;
+  transition: transform 0.1s ease;
+  width: 37.1429px;
+}
+
+.rdr-Day:hover {
+  background-color: rgb(189, 195, 199);
+}
+
+.rdr-Day:active {
+  background-color: rgb(149, 165, 166);
+  color: rgb(255, 255, 255);
+  transform: scale(0.9);
+}
+
+.rdr-Day.is-passive {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.rdr-Day.is-selected {
+  background: rgb(231, 76, 60);
+  color: rgb(255, 255, 255);
+}
+
+.is-inRange {
+  background: rgb(52, 73, 94);
+  color: rgb(149, 165, 166);
+}
+
+
+.selectedDateInput {
+  display: inline-block;
+  font-size: 16px;
+  margin: 16px;
+  min-width: 250px;
+  padding: 8px;
+}
